@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
+import { NavLink } from "react-router-dom";
 import "./index.css";
 
 const App = () => {
@@ -12,9 +13,26 @@ const App = () => {
       <div className="min-h-screen bg-[#fcfbf7]">
         <nav className="fixed top-0 left-0 w-full bg-sandbeige shadow-md p-4 flex justify-end items-center z-50">
           <div className="flex gap-6 pr-6">
-            <Link to="/" className="text-lg text-white hover:text-darkchoco transition-all duration-300">Hjem</Link>
-            <Link to="/projects" className="text-lg text-white hover:text-darkchoco transition-all duration-300">Projekter</Link>
-            <Link to="/contact" className="text-lg text-white hover:text-darkchoco transition-all duration-300">Kontakt</Link>
+        <NavLink 
+          to="/" 
+            className={({ isActive }) => isActive ? "text-darkchoco" : "text-white hover:text-darkchoco"}
+          >
+        Hjem
+       </NavLink>
+
+        <NavLink 
+          to="/projects" 
+            className={({ isActive }) => isActive ? "text-darkchoco" : "text-white hover:text-darkchoco"}
+            >
+          Projekter
+        </NavLink>
+
+        <NavLink 
+          to="/contact" 
+            className={({ isActive }) => isActive ? "text-darkchoco" : "text-white hover:text-darkchoco"}
+             >
+            Kontakt
+            </NavLink>
             <div className="flex gap-4 pr-6">
               {/* GitHub ikon (sort) */}
               <a href="https://github.com/soswind" target="_blank" rel="noopener noreferrer" className="hover:opacity-75 transition-all duration-300">

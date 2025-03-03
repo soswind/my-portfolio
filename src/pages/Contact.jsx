@@ -18,13 +18,15 @@ const Contact = () => {
 
       {/* Overskrift */}
       <h1 className="text-4xl font-bold text-darkchoco">Kontakt Mig</h1>
-      <p className="mt-2 text-lg text-black">Har du spørgsmål eller vil du samarbejde? Kontakt mig her! 📩</p>
+      <p className="mt-2 text-lg text-black">Har du spørgsmål eller bare lyst til en kop kaffe? Kontakt mig her! ☕ </p>
 
       {/* Kontaktoplysninger */}
       <div className="mt-6 space-y-4 text-lg text-gray-700">
-        <div className="flex items-center gap-2">
-          <Mail size={24} className="text-black" />
-          <span>s_swind@hotmail.com</span>
+        <div className="flex items-center gap-2 group">
+          <Mail size={24} className="text-black group-hover:text-terracotta transition-all duration-300" />
+          <a href="mailto:s_swind@hotmail.com" className="hover:text-terracotta transition-all duration-300">
+          s_swind@hotmail.com
+          </a>
         </div>
         <div className="flex items-center gap-2 group">
         <Phone size={24} className="text-black group-hover:text-terracotta transition-all duration-300" />

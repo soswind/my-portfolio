@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "start": "remix-serve ./build/index.js"
+    "start": "vite preview"
   },
   "dependencies": {
     "framer-motion": "^12.4.7",

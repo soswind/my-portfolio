@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import image from "../assets/exam-logo.png";
 
 const projects = [
     {

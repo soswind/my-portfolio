@@ -1,5 +1,6 @@
 import React from "react";
 import image from "/src/assets/profil.png";
+import Link from "react-router-dom";
 
 const Home = () => {
   return (
@@ -34,9 +35,9 @@ const Home = () => {
           </div>
 
           {/* CTA-knap */}
-          <a href="/projects" className="mt-6 inline-block bg-terracotta text-white text-lg font-semibold px-6 py-3 rounded-xl shadow-md hover:bg-white hover:text-terracotta transition">
+          <Link to="/projects" className="mt-6 inline-block bg-terracotta text-white text-lg font-semibold px-6 py-3 rounded-xl shadow-md hover:bg-white hover:text-terracotta transition">
             Se mine projekter 🚀
-          </a>
+          </Link>
         </div>
       </div>
 

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
+import examLogo from "/src/assets/exam-logo.png";
 
 const projects = [
     {
@@ -8,7 +9,7 @@ const projects = [
         title: "Event Applikation",
         description: "Remix app, hvor brugere kan finde og oprette events, med MongoDB som database.",
         description1: "Opret en bruger og test løsningen!",
-        image: "/src/assets/exam-logo.png",
+        image: examLogo,
         link: "https://remix-project-77b343a0b53c.herokuapp.com/events",
     },
 ];

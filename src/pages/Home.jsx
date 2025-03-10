@@ -1,4 +1,5 @@
 import React from "react";
+import image from "/src/assets/profil.JPG";
 
 const Home = () => {
   return (
@@ -8,7 +9,7 @@ const Home = () => {
         
         {/* Billed-sektion */}
         <div className="w-full lg:w-1/2 flex justify-center">
-          <img src="/src/assets/profil.JPG" alt="Dit navn" className="w-3/4 lg:w-2/3 rounded-lg shadow-lg" />
+          <img src={image} alt="Søs Wind" className="w-3/4 lg:w-2/3 rounded-lg shadow-lg" />
         </div>
 
         {/* Tekst-sektion */}

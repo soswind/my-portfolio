@@ -66,7 +66,7 @@ const App = () => {
         </nav>
 
         {/* Mobilmenu */}
-        <div className={`lg:hidden fixed top-0 left-0 w-full h-full bg-white shadow-md p-4 flex flex-col items-center pt-24 transition-transform duration-200 ${menuOpen ? "translate-x-0" : "-translate-x-full"}`}>
+        <div className={`lg:hidden fixed top-0 left-0 w-full h-full bg-white shadow-md p-4 flex flex-col items-center pt-24 transition-transform duration-200 z-50 ${menuOpen ? "translate-x-0" : "-translate-x-full"}`}>
           <button className="absolute top-6 right-6 text-darkchoco focus:outline-none" onClick={() => setMenuOpen(false)}>
             <X size={24} />
           </button>

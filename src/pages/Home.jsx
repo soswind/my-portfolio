@@ -14,7 +14,7 @@ const Home = () => {
         </div>
 
         {/* Tekst-sektion */}
-        <div className="w-full lg:w-1/2 text-center lg:text-left p-6 lg:pl-10">
+        <div className="w-full lg:w-1/2 text-center lg:text-left p-6 pt-24 lg:pl-10">
           <h1 className="text-4xl text-black">Portfolio Webudvikling</h1>
           <p className="mt-2 text-xl text-black font-semibold">
             Passioneret udvikler med fokus på moderne webteknologier og kreativt design.

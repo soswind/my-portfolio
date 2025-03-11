@@ -55,7 +55,7 @@ const Cv = () => {
         <div className="p-6 border rounded-xl shadow-lg bg-[#e1ccbe] text-white">
           <div className="flex items-center gap-3 mb-4">
             <GraduationCap size={30} className="text-darkchoco" />
-            <h2 className="text-3xl text-darkchoco font-semibold">Uddannelse</h2>
+            <h2 className="text-2xl text-darkchoco font-semibold">Uddannelse</h2>
           </div>
 
           <div className="space-y-6">
@@ -108,7 +108,7 @@ const Cv = () => {
         <div className="p-6 border rounded-xl shadow-lg bg-terracotta">
           <div className="flex items-center gap-3 mb-4">
             <Briefcase size={30} className="text-white" />
-            <h2 className="text-3xl text-white font-semibold">Erhvervserfaring</h2>
+            <h2 className="text-2xl text-white font-semibold">Erhvervserfaring</h2>
           </div>
 
           <div className="space-y-6">

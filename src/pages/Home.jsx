@@ -6,15 +6,15 @@ const Home = () => {
   return (
     <>
       {/* Hero sektion med lyserød baggrund */}
-      <div className="bg-[#e1ccbe] flex flex-col lg:flex-row items-center lg:items-start min-h-screen p-6 lg:p-32">
+      <div className="bg-[#e1ccbe] flex flex-col-reverse lg:flex-row items-center lg:items-start min-h-screen p-6 lg:p-32">
         
         {/* Billed-sektion */}
-        <div className="w-full lg:w-1/2 flex justify-center">
+        <div className="w-full lg:w-1/2 flex justify-center mt-12 lg:mt-0">
           <img src={image} alt="Søs Wind" className="w-3/4 lg:w-2/3 rounded-lg shadow-lg" />
         </div>
 
         {/* Tekst-sektion */}
-        <div className="w-full lg:w-1/2 text-center lg:text-left lg:pl-10">
+        <div className="w-full lg:w-1/2 text-center lg:text-left p-6 lg:pl-10">
           <h1 className="text-4xl text-black">Portfolio Webudvikling</h1>
           <p className="mt-2 text-xl text-black font-semibold">
             Passioneret udvikler med fokus på moderne webteknologier og kreativt design.

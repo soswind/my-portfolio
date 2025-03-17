@@ -10,6 +10,7 @@ import "./index.css";
 import Footer from "./pages/Footer";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
+import Certificates from "./pages/Certificates";
 
 const App = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -31,6 +32,13 @@ const App = () => {
             className={({ isActive }) => isActive ? "text-terracotta" : "text-darkchoco hover:text-darkchoco"}
             >
           Projekter
+        </NavLink>
+
+        <NavLink
+          to="/certificates"
+          className={({ isActive }) => isActive ? "text-terracotta" : "text-darkchoco hover:text-darkchoco"}
+          >
+          Certifikater
         </NavLink>
 
         <NavLink 
@@ -92,6 +100,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/certificates" element={<Certificates />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/cv" element={<Cv />} />
         </Routes>

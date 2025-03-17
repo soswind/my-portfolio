@@ -102,10 +102,10 @@ const Home = () => {
             kundespecifik case fra vores virksomhed. Søs har arbejdet med opgaver med hjemmesider og webshops. 
             Hun har løst konkrete kundeopgaver indenfor:
         
-            <li className="pt-4">Webdesign</li>
-            <li>Programmering serverside: PHP</li>
-            <li>Programmering clientside: JavaScript & JQUERY</li>
-            <li className="pb-4">CSS udvikling</li>
+            <li className="pt-4 text-sm">Webdesign</li>
+            <li className="pt-2 text-sm">Programmering serverside: PHP</li>
+            <li className="pt-2 text-sm">Programmering clientside: JavaScript & JQUERY</li>
+            <li className="pb-4 pt-2 text-sm">CSS udvikling</li>
 
             <p>Søs arbejder selvstændigt og konstruktivt omkring løsningen af en opgave. Hun er proaktiv
               i sin tilgang til en opgave og løser den inden for angivet tidsestimat. Søs er behagelig

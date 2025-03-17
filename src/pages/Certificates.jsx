@@ -1,5 +1,9 @@
 import React from "react";
 
+import image from "/src/assets/LinkedIn Learning Course - React.png";
+import image from "/src/assets/LinkedIn Learning Course - Git & Github.png";
+import image from "/src/assets/LinkedIn Learning Course - RESTful APIs.png";
+
 import { useState } from "react";
 
 const certificates = [

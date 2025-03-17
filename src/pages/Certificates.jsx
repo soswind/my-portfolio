@@ -1,15 +1,11 @@
 import React from "react";
 
-import image from "/src/assets/LinkedIn Learning Course - React.png";
-import image from "/src/assets/LinkedIn Learning Course - Git & Github.png";
-import image from "/src/assets/LinkedIn Learning Course - RESTful APIs.png";
-
 import { useState } from "react";
 
 const certificates = [
-    { id: 1, image: "src/assets/LinkedIn Learning Course - React.png", title: "React.js", description: "Learning React.js Kursus fra LinkedIn Learning"},
-    { id: 2, image: "src/assets/LinkedIn Learning Course - Git & Github.png", title: "Git & Github", description: "Learning Git & Github Kursus fra LinkedIn Learning"},
-    { id: 3, image: "src/assets/LinkedIn Learning Course - RESTful APIs.png", title: "RESTful APIs", description: "Designing RESTful API's Kursus fra LinkedIn Learning"}
+    { id: 1, image: "/LinkedIn Learning Course - React.png", title: "React.js", description: "Learning React.js Kursus fra LinkedIn Learning"},
+    { id: 2, image: "/LinkedIn Learning Course - Git & Github.png", title: "Git & Github", description: "Learning Git & Github Kursus fra LinkedIn Learning"},
+    { id: 3, image: "/LinkedIn Learning Course - RESTful APIs.png", title: "RESTful APIs", description: "Designing RESTful API's Kursus fra LinkedIn Learning"}
 ];
 
 const Certificates = () => {
